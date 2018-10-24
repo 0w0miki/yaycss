@@ -1,13 +1,13 @@
-.ng-scope.ui-sortable-handle>.dial:before,
-.ng-scope.ui-sortable-handle>.dial:after,
-.ng-scope.ui-sortable-handle>.dial,
-.ng-scope.ui-sortable-handle>dial *{
+.dials_container .dial:before,
+.dials_container .dial:after,
+.dials_container .dial,
+.dials_container .dial *{
         transition:all 0.4s;
 }
-.ng-scope.ui-sortable-handle>.dial>*{
+.dials_container .dial>*{
 opacity:0;
 }
-.ng-scope.ui-sortable-handle>.dial:hover *{
+.dials_container .dial:hover *{
 opacity:1;
 }
 /******* title *******/
@@ -17,7 +17,7 @@ opacity:1;
     text-align: center;
 }
 /******* batch *******/
-.ng-scope.ui-sortable-handle>.dial:before{
+.dials_container .dial:before{
     font-family: Impact, Charcoal, sans-serif;
     color:white;
     text-align: center;
@@ -32,18 +32,18 @@ opacity:1;
 	width: 60px;
 	height: 400px;
 }
-.ng-scope.ui-sortable-handle>.dial:hover:before{
+.dials_container .dial:hover:before{
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	height: 20px;
 	font-size: 10px;
 	word-spacing: 0;
 }
-.ng-scope.ui-sortable-handle>.dial:hover:before,
-.ng-scope.ui-sortable-handle>.dial:hover{
+.dials_container .dial:hover:before,
+.dials_container .dial:hover{
     width:400px!important;
 }
-.ng-scope.ui-sortable-handle>.dial:after{
+.dials_container .dial:after{
 	color: #222;
 	//font-family: 'Times New Roman', Times, serif;
 	font-size: 80px;
@@ -56,155 +56,155 @@ opacity:1;
 	opacity: 0;
 	z-index: -1;
 }
-.ng-scope.ui-sortable-handle>.dial:hover:after{
+.dials_container .dial:hover:after{
 	opacity: 0.8;
 	line-height: 650px;
 	font-size: 60px;
 }
 
 /***************************** for each design *****************************/
-.ng-scope.ui-sortable-handle:nth-of-type(1)>.dial:before{
+.dials_container>a:nth-of-type(1)>.dial:before{
     content: "A Y A N O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(1)>.dial:after{
+.dials_container>a:nth-of-type(1)>.dial:after{
     content: "挂";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(1)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(1) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(1)>.dial:before,
+.dials_container>a:nth-of-type(1) .ng-binding.ng-scope{
     background-color:#f66!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(1)>.dial{
+.dials_container>a:nth-of-type(1)>.dial{
     border-color: #f66!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(2)>.dial:before{
+.dials_container>a:nth-of-type(2)>.dial:before{
     content: "K I D O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(2)>.dial:after{
+.dials_container>a:nth-of-type(2)>.dial:after{
     content: "隠";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(2)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(2) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(2)>.dial:before,
+.dials_container>a:nth-of-type(2) .ng-binding.ng-scope{
     background-color:#9d02fe!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(2)>.dial{
+.dials_container>a:nth-of-type(2)>.dial{
     border-color: #9d02fe!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(3)>.dial:before{
+.dials_container>a:nth-of-type(3)>.dial:before{
     content: "S E T O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(3)>.dial:after{
+.dials_container>a:nth-of-type(3)>.dial:after{
     content: "盗";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(3)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(3) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(3)>.dial:before,
+.dials_container>a:nth-of-type(3) .ng-binding.ng-scope{
     background-color:#02f60a!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(3)>.dial{
+.dials_container>a:nth-of-type(3)>.dial{
     border-color: #02f60a!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(4)>.dial:before{
+.dials_container>a:nth-of-type(4)>.dial:before{
     content: "K A N O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(4)>.dial:after{
+.dials_container>a:nth-of-type(4)>.dial:after{
     content: "欺";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(4)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(4) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(4)>.dial:before,
+.dials_container>a:nth-of-type(4) .ng-binding.ng-scope{
     background-color:#999!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(4)>.dial{
+.dials_container>a:nth-of-type(4)>.dial{
     border-color: #999!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(5)>.dial:before{
+.dials_container>a:nth-of-type(5)>.dial:before{
     content: "M A R R Y";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(5)>.dial:after{
+.dials_container>a:nth-of-type(5)>.dial:after{
     content: "合";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(5)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(5) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(5)>.dial:before,
+.dials_container>a:nth-of-type(5) .ng-binding.ng-scope{
     background-color:#fb89c7!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(5)>.dial{
+.dials_container>a:nth-of-type(5)>.dial{
     border-color: #fb89c7!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(6)>.dial:before{
+.dials_container>a:nth-of-type(6)>.dial:before{
     content: "M O N O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(6)>.dial:after{
+.dials_container>a:nth-of-type(6)>.dial:after{
     content: "夺";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(6)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(6) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(6)>.dial:before,
+.dials_container>a:nth-of-type(6) .ng-binding.ng-scope{
     background-color:#ff8a00!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(6)>.dial{
+.dials_container>a:nth-of-type(6)>.dial{
     border-color: #ff8a00!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(7)>.dial:before{
+.dials_container>a:nth-of-type(7)>.dial:before{
     content: "E N E";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(7)>.dial:after{
+.dials_container>a:nth-of-type(7)>.dial:after{
     content: "覚";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(7)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(7) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(7)>.dial:before,
+.dials_container>a:nth-of-type(7) .ng-binding.ng-scope{
     background-color:#0284fe!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(7)>.dial{
+.dials_container>a:nth-of-type(7)>.dial{
     border-color: #0284fe!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(8)>.dial:before{
+.dials_container>a:nth-of-type(8)>.dial:before{
     content: "S H I N T A R O";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(8)>.dial:after{
+.dials_container>a:nth-of-type(8)>.dial:after{
     content: "";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(8)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(8) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(8)>.dial:before,
+.dials_container>a:nth-of-type(8) .ng-binding.ng-scope{
     background-color:#ff0101!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(8)>.dial{
+.dials_container>a:nth-of-type(8)>.dial{
     border-color: #ff0101!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(9)>.dial:before{
+.dials_container>a:nth-of-type(9)>.dial:before{
     content: "H I B I Y A";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(9)>.dial:after{
+.dials_container>a:nth-of-type(9)>.dial:after{
     content: "凝";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(9)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(9) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(9)>.dial:before,
+.dials_container>a:nth-of-type(9) .ng-binding.ng-scope{
     background-color:#02e3ff!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(9)>.dial{
+.dials_container>a:nth-of-type(9)>.dial{
     border-color: #02e3ff!important;
 }
 
-.ng-scope.ui-sortable-handle:nth-of-type(10)>.dial:before{
+.dials_container>a:nth-of-type(10)>.dial:before{
     content: "K O N O H A";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(10)>.dial:after{
+.dials_container>a:nth-of-type(10)>.dial:after{
     content: "醒";
 }
-.ng-scope.ui-sortable-handle:nth-of-type(10)>.dial:before,
-.ng-scope.ui-sortable-handle:nth-of-type(10) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(10)>.dial:before,
+.dials_container>a:nth-of-type(10) .ng-binding.ng-scope{
     background-color:#dfee00!important;
 }
-.ng-scope.ui-sortable-handle:nth-of-type(10)>.dial{
+.dials_container>a:nth-of-type(10)>.dial{
     border-color: #dfee00!important;
 }
 /***************************end***********************************/
 
-.ng-scope.ui-sortable-handle[href^="unsafe:moz-extension://"]>div{
+.dials_container>a[href^="unsafe:moz-extension://"]>div{
 //height:50px!important;
 }
 /******* folder list *******/
