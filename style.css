@@ -11,7 +11,7 @@ opacity:0;
 opacity:1;
 }
 /******* title *******/
-.ng-binding.ng-scope{
+.dial_name{
     top:0;
     bottom:auto !important;
     text-align: center;
@@ -70,7 +70,7 @@ opacity:1;
     content: "挂";
 }
 .dials_container>a:nth-of-type(1)>.dial:before,
-.dials_container>a:nth-of-type(1) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(1) .dial_name{
     background-color:#f66!important;
 }
 .dials_container>a:nth-of-type(1)>.dial{
@@ -84,7 +84,7 @@ opacity:1;
     content: "隠";
 }
 .dials_container>a:nth-of-type(2)>.dial:before,
-.dials_container>a:nth-of-type(2) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(2) .dial_name{
     background-color:#9d02fe!important;
 }
 .dials_container>a:nth-of-type(2)>.dial{
@@ -98,7 +98,7 @@ opacity:1;
     content: "盗";
 }
 .dials_container>a:nth-of-type(3)>.dial:before,
-.dials_container>a:nth-of-type(3) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(3) .dial_name{
     background-color:#02f60a!important;
 }
 .dials_container>a:nth-of-type(3)>.dial{
@@ -112,7 +112,7 @@ opacity:1;
     content: "欺";
 }
 .dials_container>a:nth-of-type(4)>.dial:before,
-.dials_container>a:nth-of-type(4) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(4) .dial_name{
     background-color:#999!important;
 }
 .dials_container>a:nth-of-type(4)>.dial{
@@ -126,7 +126,7 @@ opacity:1;
     content: "合";
 }
 .dials_container>a:nth-of-type(5)>.dial:before,
-.dials_container>a:nth-of-type(5) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(5) .dial_name{
     background-color:#fb89c7!important;
 }
 .dials_container>a:nth-of-type(5)>.dial{
@@ -140,7 +140,7 @@ opacity:1;
     content: "夺";
 }
 .dials_container>a:nth-of-type(6)>.dial:before,
-.dials_container>a:nth-of-type(6) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(6) .dial_name{
     background-color:#ff8a00!important;
 }
 .dials_container>a:nth-of-type(6)>.dial{
@@ -154,7 +154,7 @@ opacity:1;
     content: "覚";
 }
 .dials_container>a:nth-of-type(7)>.dial:before,
-.dials_container>a:nth-of-type(7) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(7) .dial_name{
     background-color:#0284fe!important;
 }
 .dials_container>a:nth-of-type(7)>.dial{
@@ -168,7 +168,7 @@ opacity:1;
     content: "";
 }
 .dials_container>a:nth-of-type(8)>.dial:before,
-.dials_container>a:nth-of-type(8) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(8) .dial_name{
     background-color:#ff0101!important;
 }
 .dials_container>a:nth-of-type(8)>.dial{
@@ -182,7 +182,7 @@ opacity:1;
     content: "凝";
 }
 .dials_container>a:nth-of-type(9)>.dial:before,
-.dials_container>a:nth-of-type(9) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(9) .dial_name{
     background-color:#02e3ff!important;
 }
 .dials_container>a:nth-of-type(9)>.dial{
@@ -196,7 +196,7 @@ opacity:1;
     content: "醒";
 }
 .dials_container>a:nth-of-type(10)>.dial:before,
-.dials_container>a:nth-of-type(10) .ng-binding.ng-scope{
+.dials_container>a:nth-of-type(10) .dial_name{
     background-color:#dfee00!important;
 }
 .dials_container>a:nth-of-type(10)>.dial{
